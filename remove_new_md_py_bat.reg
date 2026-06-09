@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+; Markdown
+[HKEY_CURRENT_USER\Software\Classes\.md]
+@="MarkdownFile"
+
+[HKEY_CURRENT_USER\Software\Classes\.md\ShellNew]
+"NullFile"=""
+
+[HKEY_CURRENT_USER\Software\Classes\MarkdownFile]
+@="Markdown Document"
+
+
+; Python
+[HKEY_CURRENT_USER\Software\Classes\.py]
+@="PythonFile"
+
+[HKEY_CURRENT_USER\Software\Classes\.py\ShellNew]
+"NullFile"=""
+
+[HKEY_CURRENT_USER\Software\Classes\PythonFile]
+@="Python Script"
+
+
+; Batch
+[HKEY_CURRENT_USER\Software\Classes\.bat]
+@="BatchFile"
+
+[HKEY_CURRENT_USER\Software\Classes\.bat\ShellNew]
+"NullFile"=""
+
+[HKEY_CURRENT_USER\Software\Classes\BatchFile]
+@="Windows Batch File"
